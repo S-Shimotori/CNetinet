@@ -1,0 +1,5 @@
+module CNetinet [system] {
+    umbrella header "include/netinet.h"
+    export *
+    module * { export * }
+}
